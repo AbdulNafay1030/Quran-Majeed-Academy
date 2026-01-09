@@ -7,9 +7,9 @@ npm run dev
 
 
 
+Backend
 
-
-Option B: Using XAMPP / WAMP / MAMP
+Using XAMPP / WAMP / MAMP
 Move checkout/ folder to htdocs
 
 Start Apache (Most Important)
