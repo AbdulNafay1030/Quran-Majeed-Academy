@@ -1,0 +1,485 @@
+/* FeePlans.scss */
+/* Uses your PremiumMembership look but scoped to FeePlans */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+.feeplans-wrap {
+  padding: 60px 0;
+  background-color: #f5f7fa;
+  font-family: "Inter", sans-serif;
+  color: #0b2238;
+}
+
+.feeplans-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.fee-section {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.fee-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0b2238;
+  line-height: 1.2;
+}
+
+.fee-subtitle {
+  font-size: 18px;
+  color: #0b2238;
+  margin-bottom: 30px;
+}
+
+.green-text {
+  color: #26a96c;
+  font-weight: 600;
+}
+
+/* ===== Toggle (your previous switch style) ===== */
+.fee-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 18px 0 36px;
+  color: #0b2238;
+
+  span {
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+  .active-label {
+    opacity: 1;
+  }
+}
+
+.fee-switch {
+  width: 56px;
+  height: 28px;
+  border: none;
+  background: #ffffff;
+  border-radius: 999px;
+  position: relative;
+  cursor: pointer;
+}
+
+.fee-knob {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 20px;
+  background: #15803D;
+  border-radius: 999px;
+  transition: transform 0.2s ease;
+
+  &.on {
+    transform: translateX(28px);
+  }
+}
+
+/* ===== Desktop cards ===== */
+.pricing-container {
+  overflow: visible;
+}
+
+.pricing-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+
+  flex-wrap: nowrap;
+  overflow-x: auto;     /* keep single line + scroll if needed */
+  overflow-y: visible;  /* ✅ prevent vertical clipping */
+
+  padding: 24px 0;      /* ✅ gives room for “popular” card lift */
+}
+
+.pricing-card {
+  flex: 0 0 260px;        /* ✅ fixed width, no shrinking */
+  width: 260px;
+
+
+&.popular {
+  flex: 0 0 280px;
+  width: 280px;
+  padding: 0;
+  margin-top: -16px;      /* still highlighted but not breaking layout */
+  margin-bottom: -16px;
+
+    .card-content {
+      padding: 24px;
+      padding-top: 30px;
+    }
+
+    .discount-banner {
+      background: linear-gradient(90deg, #1b815e, #2b8d57, #3e9852);
+      color: white;
+      padding: 12px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 12px 12px 0 0;
+    }
+
+    .special-deal-button {
+      background-color: #15803D;
+      color: #fff;
+      border: none;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 20px 0;
+      border-radius: 30px;
+      text-transform: none;
+      width: 80%;
+      margin: 12px auto;
+      display: block;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+.card-content {
+  padding: 0;
+}
+
+.plan-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 8px 0 4px;
+  color: #0b2238;
+}
+
+.save-tag {
+  background-color: #f0f0f0;
+  color: #0b2238;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 6px auto;
+  display: inline-block;
+}
+
+.price-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 16px 0 8px;
+}
+
+.dollar-sign {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0b2238;
+  margin-right: 4px;
+}
+
+.price-amount {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0b2238;
+  line-height: 1;
+
+  &.green-price {
+    color: #3a9653;
+  }
+}
+
+.original-price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.price-period {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.original-price {
+  font-size: 16px;
+  color: #6c757d;
+  text-decoration: line-through;
+  margin-top: -6px;
+}
+
+.billing-info {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 4px 0 16px;
+}
+
+.select-plan-button {
+  color: #15803D;
+  border: 2px solid #15803D;
+  background: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 0;
+  border-radius: 30px;
+  width: 100%;
+  margin: 8px 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(58, 150, 83, 0.05);
+  }
+}
+
+.plan-features {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+
+  p {
+    font-size: 14px;
+    color: #0b2238;
+    margin: 0;
+  }
+}
+
+.feature-icon {
+  font-size: 20px;
+  color: #0b2238;
+}
+
+.guarantee-text {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0;
+}
+
+.popular-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 8px;
+
+  .fire-icon {
+    color: #6c757d;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1100px) {
+  .pricing-cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card.popular {
+    margin: 24px 0;
+    width: 320px;
+  }
+
+  .fee-title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fee-title {
+    font-size: 30px;
+  }
+
+  .fee-subtitle {
+    font-size: 16px;
+  }
+}
+
+/* ===== Mobile Picker (reuse your style) ===== */
+.mobile-premium-membershipp {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0b2238;
+  line-height: 1.2;
+}
+
+.mobile-subtitle {
+  font-size: 18px;
+  color: #0b2238;
+  margin-bottom: 22px;
+}
+
+.green-text-mobile {
+  color: #26a96c;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.green-text-mobile-subtitle {
+  color: #26a96c;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mobile-features {
+  margin-bottom: 18px;
+}
+
+.mobile-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+
+  p {
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+.mobile-check-icon {
+  color: #4caf50;
+  font-size: 20px;
+}
+
+.mobile-pricing-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.mobile-pricing-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &.selected {
+    border: 2px solid #1c815f;
+  }
+
+  &.popular {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    border: 1px solid #1c815f;
+  }
+}
+
+.mobile-option-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mobile-radio-icon {
+  color: #9e9e9e;
+  font-size: 24px;
+
+  &.selected {
+    color: #1c815f;
+  }
+}
+
+.mobile-plan-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-plan-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.mobile-popular-tag {
+  font-size: 12px;
+  color: #1c815f;
+  font-weight: 500;
+}
+
+.mobile-price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mobile-plan-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.mobile-action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mobile-subscribe-button {
+  background-color: #15803D;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 #2b9e76;
+    border-radius: 8px;
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(234, 103, 35, 0);
+    border-radius: 8px;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(234, 103, 35, 0);
+    border-radius: 8px;
+  }
+}

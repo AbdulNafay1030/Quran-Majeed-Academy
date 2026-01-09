@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Qaida For Kids",
+    "description": "Learn Quranic alphabets and basic reading rules for proper pronunciation.",
+"image": "/images/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Quran Recitation For Kids",
+    "description": "Fluently read the Holy Quran with correct Tajweed rules and pronunciation.",
+    "image": "/images/3.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Hifz Surah's Plan",
+    "description": "Memorize essential daily duas and perfect your Salah with proper method.",
+    "image": "/images/2.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Hifz Complete Quran",
+    "description": "Master advanced Tajweed rules for beautiful Quranic recitation.",
+    "image": "/images/4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Tajweed Mystery",
+    "description": "Understand Quranic verses with accurate Urdu/English translation.",
+    "image": "/images/5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Basic Islamic Knowledge",
+    "description": "Learn detailed explanation and interpretation of Quranic verses.",
+    "image": "https://images.pexels.com/photos/16126230/pexels-photo-16126230.jpeg?_gl=1*1jflr94*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MjQ4JGo0NSRsMCRoMA.."
+  },
+  {
+    "id": 7,
+    "title": "Basic Qaida For Adults",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://images.pexels.com/photos/7249294/pexels-photo-7249294.jpeg?_gl=1*17ywko0*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MTA3JGo1NiRsMCRoMA.."
+  },
+{
+    "id": 8,
+    "title": "Quran Recitation For Adults",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://images.pexels.com/photos/7249294/pexels-photo-7249294.jpeg?_gl=1*17ywko0*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MTA3JGo1NiRsMCRoMA.."
+  },
+
+
+{
+    "id": 9,
+    "title": "Tafseer Surah's Plan",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://images.pexels.com/photos/7249294/pexels-photo-7249294.jpeg?_gl=1*17ywko0*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MTA3JGo1NiRsMCRoMA.."
+  },
+
+  
+{
+    "id": 10,
+    "title": "Complete Quran Tafseer",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://images.pexels.com/photos/7249294/pexels-photo-7249294.jpeg?_gl=1*17ywko0*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MTA3JGo1NiRsMCRoMA.."
+  },
+
+
+  
+{
+    "id": 11,
+    "title": "Hifz Surah's Plan",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://images.pexels.com/photos/7249294/pexels-photo-7249294.jpeg?_gl=1*17ywko0*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MTA3JGo1NiRsMCRoMA.."
+  },
+
+
+  
+
+
+  
+{
+    "id": 12,
+    "title": "Hifz Complete Quran",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://images.pexels.com/photos/7249294/pexels-photo-7249294.jpeg?_gl=1*17ywko0*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MTA3JGo1NiRsMCRoMA.."
+  },
+
+  
+{
+    "id": 13,
+    "title": "Quran Revision",
+    "description": "Develop deep understanding of Quranic teachings and messages.",
+    "image": "https://images.pexels.com/photos/7249294/pexels-photo-7249294.jpeg?_gl=1*17ywko0*_ga*MTM3MzA0OTI2LjE3NDkwMzc3ODY.*_ga_8JE65Q40S6*czE3NTI1OTg5OTEkbzEyJGcxJHQxNzUyNTk5MTA3JGo1NiRsMCRoMA.."
+  }
+
+]
